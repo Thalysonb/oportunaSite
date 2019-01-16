@@ -1,0 +1,123 @@
+.inf-solucoes{
+    padding: 2em;
+    padding-top:10%;
+    padding-bottom:0%;
+}
+    .inf-solucoes p{
+        padding: .2em; 
+        margin-bottom: .5em;
+    }
+
+
+
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+main h1{
+    text-align:center;
+    padding-top:11%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2em;
+}
+
+@media (min-width:650px){
+    .inf-solucoes{
+        padding: 2em;
+        padding-top:4%;
+    }
+    main{
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width:850px){
+    .inf-solucoes{
+        padding: 2em;
+        padding-top:4%;
+    }
+    main{
+        margin-bottom: 1em;
+    }
+    main h1{
+        text-align:center;
+        padding-top:4%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2em;
+    
+    }
+}
+
+@media (min-width:880px){
+    .inf-solucoes{
+        padding: 2em;
+        padding-top:3%;
+    }
+    main{
+        margin-bottom: 1em;
+    }
+    main h1{
+        text-align:center;
+        padding-top:4%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2em;
+    }
+}
+
+@media (min-width:1320px){
+    .inf-solucoes{
+        padding: 5em;
+        padding-top:2%;
+        padding-bottom:0%;
+    }
+
+    .inf-solucoes p{
+        margin-bottom: 1%;
+    }
+    main{
+        margin-bottom: .5em;
+    }
+    main h1{
+        text-align:center;
+        padding-top:3%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2em;
+    }
+}
+
+@media (min-width:1370px){
+    .inf-solucoes{
+        padding-left: 15em;
+        padding-top:2%;
+    }
+
+    .inf-solucoes p{
+        margin-bottom: 1%;
+    }
+    main{
+        margin-bottom: .5em;
+    }
+    main h1{
+        text-align:center;
+        padding-top:3%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:2em;
+    }
+    footer{
+        position: absolute;
+        margin-bottom: 0%;
+        bottom: 0%;
+    }
+}
+
+a {
+    color: black;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////  css certo  ////////////////////////////////////////////////////////////////////////////////*/

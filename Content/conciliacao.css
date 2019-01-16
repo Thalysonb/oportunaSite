@@ -1,0 +1,134 @@
+main {
+    padding: 3%;
+    width:100%;
+}
+
+main p{
+    padding-top:3%;
+    margin-left: 5%;
+    margin-bottom: 3%
+}
+
+.imagem1{
+    margin-left: 4%;
+    margin-bottom: 3%;
+    width: 90%;
+} 
+    #conc1{
+        width:100%;
+    }
+oportuna
+.imagem2{
+    margin-left:  4%;
+    width: 90%;
+}
+    #conc2{
+        width:100%;
+    }
+
+h1{
+    text-align:center;
+    padding-top:10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.6em;    
+}
+
+
+@media (min-width:488px){
+    h1{
+        text-align:center;
+        padding-top:9%;
+        padding-bottom:3%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;    
+    }
+}
+
+@media (min-width:800px){
+    h1{
+        text-align:center;
+        padding-top:6%;
+        padding-bottom:3%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;    
+    }
+}
+
+@media (min-width:1000px){
+    h1{
+        text-align:center;
+        padding-top:4%;
+        padding-bottom:3%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;    
+    }
+    main p{
+        padding-top:3%;
+        margin-left: 5%;
+        margin-bottom: 1%
+    }
+    .imagem1{
+        margin-left: 4%;
+        padding-top:2%;
+        margin-bottom: 3%;
+        width: 45%;
+        float:left;
+    } 
+        #conc1{
+            width:100%;
+            
+        }
+
+    .imagem2{
+        margin-left:  4%;
+        padding-top:2%;
+        width: 45%;
+        float:left;
+    }
+        #conc2{
+            width:100%;
+            float:right;
+        }
+    footer {
+        clear:both;
+    }
+}
+
+@media (min-width:1300px){
+    h1{
+        text-align:center;
+        padding-top:2%;
+        padding-bottom:1%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;    
+    }
+    main p{
+        padding-top:1%;
+        margin-left: 4%;
+    }
+    .imagem1{
+        margin-left: 4%;
+        padding-top:2%;
+        margin-bottom: 3%;
+        width: 45%;
+        float:left;
+    } 
+        #conc1{
+            width:100%;
+            
+        }
+
+    .imagem2{
+        margin-left:  4%;
+        padding-top:2%;
+        width: 45%;
+        float:left;
+    }
+        #conc2{
+            width:100%;
+            float:right;
+        }
+    footer {
+        clear:both;
+    }
+}

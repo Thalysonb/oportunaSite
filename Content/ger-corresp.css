@@ -1,0 +1,273 @@
+
+main{
+    height: 100%;
+}
+
+    main p{
+        margin-left: 6%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
+
+    main h2{
+        padding-left:6%;
+        padding-bottom:2%;
+        font-size:115%;
+    }
+    main .logo-sgc{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:13%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1em;
+    }
+
+    .telas h3{
+        padding-left:6%;
+        padding-bottom:4%;
+    }
+    .telas img{
+        padding-left:9%;
+        padding-bottom:6%;
+        width:100%;
+
+    }
+
+    .funcoes{
+        padding-bottom:4%;
+        font-size:1.15em;
+    }
+
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:75%;
+    }
+
+    .titulo{
+        padding-bottom:4%;
+        padding-top:1%;
+        font-size:1.15em;
+    }
+    
+
+@media (min-width:500px){
+    main .logo-sgc{
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:13%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.18em;
+    }
+
+    .telas img{
+        padding-left:8%;
+        padding-bottom:5%;
+        width:100%;
+    }
+
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:70%;
+    }
+}
+
+@media (min-width:690px){
+    main .logo-sgc{
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-bottom: 6%;
+        width: 70%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:11%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.4em;
+    }
+
+     .telas img{
+        padding-left:7%;
+        padding-bottom:2%;
+        width:100%;
+    }
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:80%;
+    }
+}
+
+@media (min-width:900px){
+    main .logo-sgc{
+        margin-top: 5%;
+        margin-left: 22%;
+        margin-bottom: 6%;
+        width: 55%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:8%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;
+    }
+
+    .telas img{
+        padding-left:8%;
+        padding-bottom:2%;
+    }
+
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:70%;
+    }
+}
+
+@media (min-width:1050px){
+    main p{
+        margin-left: 6%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
+    main .logo-sgc{
+        margin-top: 5%;
+        margin-left: 23%;
+        margin-bottom: 6%;
+        width: 48%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:8%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;
+    }
+
+    .telas h3{
+        padding-left:6%;
+        padding-bottom:4%;
+    }
+
+     .telas img{
+        padding-left:8%;
+        padding-bottom:2%;
+    }
+     .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:70%;
+    }
+
+     .titulo{
+        padding-bottom:3%;
+        padding-top:0%;
+        font-size:1.15em;
+    }
+}
+
+@media (min-width:1300px){
+
+    main h2{
+        padding-left:6%;
+        padding-bottom:2%;
+        font-size:115%;
+    }
+    main p{
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+    main .logo-sgc{
+        margin-top: 2%;
+        margin-left: 35%;
+        margin-bottom: 3%;
+        width: 29%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:5%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;
+    }
+
+    .telas h2{
+        padding-left:6%;
+        padding-bottom:1%;
+        font-size:115%;
+    }
+
+    .telas h3{
+        padding-left:6%;
+        padding-bottom:1%;
+    }
+    .telas img{
+        padding-left:9%;
+        padding-bottom:2%;
+    }
+
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:60%;
+    }
+}
+
+@media (min-width:1370px){
+
+    main h2{
+        padding-left:6%;
+        padding-bottom:2%;
+        font-size:115%;
+    }
+    main p{
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+    main .logo-sgc{
+        margin-top: 2%;
+        margin-left: 35%;
+        margin-bottom: 3%;
+        width: 29%;
+    }
+
+    main h1{
+        text-align:center;
+        padding-top:5%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;
+    }
+
+    .telas h2{
+        padding-left:6%;
+        padding-bottom:1%;
+        font-size:115%;
+    }
+
+    .telas h3{
+        padding-left:10%;
+        padding-bottom:1%;
+    }
+    .telas img{
+        padding-left:9%;
+        padding-bottom:2%;
+        margin-left:7%;
+    }
+
+    .img-login, .img-principal, .img-perfil, .img-documentos, .img-registroinout, .img-pesquisa, .img-obrigacoes{
+        width:60%;
+    }
+
+    .funcoes{
+        padding-bottom:3%;
+        font-size:1.2em;
+    }
+    .titulo{
+        padding-bottom:3%;
+        padding-top:1%;
+        font-size:1.2em;
+    }
+}
