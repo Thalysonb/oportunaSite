@@ -1,0 +1,24 @@
+.Srg_App{
+    width: 21.9%;
+}
+
+.image{
+    width: 100%;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding-bottom:20%;
+}
+
+.Srg_App h2{
+    padding-top:20%;
+    padding-left:40%;
+    text-align:center;
+    font-size:130%;
+}
+
+h1{
+    text-align:center;
+    padding-top:5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.6em;    
+}

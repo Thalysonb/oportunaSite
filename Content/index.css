@@ -92,6 +92,41 @@ main{
             font-size:1.1em;
         }
     
+    .mgp{
+        width:90%;
+        padding-left:4%;
+        padding-bottom:3%
+    }
+        .mgp h2{
+            padding-bottom:8%;
+            text-align:center;
+            font-size:1.1em;
+        }
+
+        .mgp h3{
+            padding-top: 4%;
+            padding-left: 4%;
+            text-align:left;
+            font-size:1.1em;
+        }
+
+    .App_Mov{
+        width:90%;
+        padding-left:4%;
+        padding-bottom:3%
+    }
+        .App_Mov h2{
+            padding-bottom:8%;
+            text-align:center;
+            font-size:1.1em;
+        }
+
+        .App_Mov h3{
+            padding-top: 4%;
+            padding-left: 4%;
+            text-align:left;
+            font-size:1.1em;
+        }
     .rodovia h3,.correspondencia h3{
         padding-top: 4%;
         text-align:left;
@@ -100,20 +135,20 @@ main{
     }
 
 
-        .rodovia ul, .correspondencia ul {
+        .rodovia ul, .correspondencia ul, .mgp ul {
             padding:2%;
             margin-left:1%;
         }
-                .rodovia ul li, .correspondencia ul li {
+                .rodovia ul li, .correspondencia ul li, .mgp ul li {
                     padding:1%;
                 }   
 
-        .correspondencia input, .rodovia input{
+        .correspondencia input, .rodovia input, .mgp input{
             margin-bottom:10%;
             margin-left:4%;
         }
 
-    .img-rodovias, .img-correspondencia{
+    .img-rodovias, .img-correspondencia, .img-mgp, .img-mgp{
         width:100%;
         padding-left:3%;
         margin-left:1%;
@@ -201,7 +236,7 @@ main{
 /*-----------------------------------------------Seção dos Clientes-----------------------------------------*/
 
 #Clientes h1{
-    padding-top:20%;
+    padding-top:35%;
     padding-bottom:30%;
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -363,20 +398,20 @@ main h1{
         font-size:2em;
     }
     .conciliacao{
-        width:29.3%;
+        width:17.52%;
         float:left;
         clear:right;
         padding-left:4%;  
         margin-left:2%;  
     }
         .conciliacao h2{
-            padding-bottom:8%;
+            padding-bottom:16%;
             text-align:center;
             font-size:130%;
         }
 
     .correspondencia{
-        width:29.3%;
+        width:17.52%;
         float:left;
         padding-left:4%;
         margin-left:2%;
@@ -389,7 +424,7 @@ main h1{
 
 
     .rodovia{
-        width:29.3%;
+        width:17.52%;
         float:left;
         padding-left:4%;
         padding-bottom:3%;
@@ -399,7 +434,46 @@ main h1{
             text-align:center;
             font-size:130%;
         }
-    
+
+    .mgp{
+        width:17.52%;
+        float:left;
+        padding-left:4%;
+        padding-bottom:3%;
+    }
+        .mgp h2{
+            padding-bottom:16.5%;
+            text-align:center;
+            font-size:130%;
+        }
+        
+        .mgp h3{
+            padding-top: 4%;
+            padding-left: 3%;
+            text-align:left;
+            font-size:110%;
+        }
+
+
+    .App_Mov{
+        width:17.52%;
+        float:left;
+        padding-left:4%;
+        padding-bottom:3%;
+    }
+        .App_Mov h2{
+            padding-bottom:16.5%;
+            text-align:center;
+            font-size:130%;
+        }
+        
+        .App_Mov h3{
+            padding-top: 4%;
+            padding-left: 3%;
+            text-align:left;
+            font-size:110%;
+        }
+
     .rodovia h3, .conciliacao h3, .correspondencia h3{
         padding-top: 4%;
         text-align:left;
@@ -407,10 +481,10 @@ main h1{
     }
 
 
-        .rodovia ul, .conciliacao ul, .correspondencia ul {
+        .rodovia ul, .conciliacao ul, .correspondencia ul, .mgp ul {
             padding:2%;
         }
-                .rodovia ul li, .conciliacao ul li, .correspondencia ul li {
+                .rodovia ul li, .conciliacao ul li, .correspondencia ul li, .mgp ul li {
                     padding:1%;
                  }   
 }
@@ -648,7 +722,7 @@ main h1{
 
     #carrossel4{
         padding-top:6%;
-        padding-bottom:4%;
+        padding-bottom:8%;
         padding-left:7%;
         width: 33.3%;
         clear:left;
@@ -657,7 +731,7 @@ main h1{
 
     #carrossel5{
         padding-top:5%;
-        padding-bottom:4%;
+        padding-bottom:8%;
         padding-left:4%;
         float: left;
         width: 33.3%;
@@ -665,7 +739,7 @@ main h1{
 
     #carrossel6{
         padding-top:5%;
-        padding-bottom:4%;
+        padding-bottom:8%;
         padding-left:8%;
         float: left;
         width: 33.3%;
@@ -785,45 +859,114 @@ main h1{
     
  }
 
- @media (min-width:844px) and (max-width:858px) {
+ 
+/*Media queries feitas para controlar a posição das devs de soluções, devido ao fato de os tamanhos
+ dos títulos serem diferentes, por isso, dependendo do tamanho da tela, o título cresce ou diminui, e isso desalinha os elementos*/
+
+ @media (min-width:800px) /*and (max-width:1090px)*/ {
     .conciliacao h2{
+        padding-bottom:22%;
+        text-align:center;
+        font-size:130%;
+    }
+    .rodovia h2{
+        padding-bottom:22%;
+        text-align:center;
+        font-size:130%;
+    }
+    .mgp h2{
+        padding-bottom:22%;
+        text-align:center;
+        font-size:130%;
+    }
+ }
+
+ @media (min-width:940px) /*and (max-width:1090px)*/ {
+    .correspondencia h2{
+        padding-bottom:10%;
+        text-align:center;
+        font-size:130%;
+    }
+ }
+
+ @media (min-width:956px) /*and (max-width:1090px)*/ {
+    .correspondencia h2{
+        padding-bottom:21%;
+        text-align:center;
+        font-size:130%;
+    }
+ }
+
+ @media (min-width:996px) /*and (max-width:1090px)*/ {
+    .conciliacao h2{
+        padding-bottom:20%;
+        text-align:center;
+        font-size:130%;
+    }
+    .mgp h2{
+        padding-bottom:32%;
+        text-align:center;
+        font-size:130%;
+    }
+ }
+
+ @media (min-width:1091px) /*and (max-width:1090px)*/ {
+    .conciliacao h2{
+        padding-bottom:31%;
+        text-align:center;
+        font-size:130%;
+    }
+    .mgp h2{
+        padding-bottom:31%;
+        text-align:center;
+        font-size:130%;
+    }
+    .rodovia h2{
+        padding-bottom:20%;
+        text-align:center;
+        font-size:130%;
+    }
+ }
+
+ @media (min-width:1270px) /*and (max-width:1090px)*/ {
+    .conciliacao h2{
+        padding-bottom:16%;
+        text-align:center;
+        font-size:130%;
+    }
+    .mgp h2{
+        padding-bottom:16%;
+        text-align:center;
+        font-size:130%;
+    }
+    .correspondencia h2{
+        padding-bottom:8%;
+        text-align:center;
+        font-size:130%;
+    }
+
+    .rodovia h2{
         padding-bottom:8%;
         text-align:center;
         font-size:130%;
     }
  }
 
-@media (min-width:860px) and (max-width:954px) {
-    .conciliacao h2{
-        padding-bottom:16%;
-        text-align:center;
-        font-size:130%;
-    }
-}
-
- @media (min-width:955px) and (max-width:1040px) {
-    .conciliacao h2{
+ @media (min-width:1474px) /*and (max-width:1090px)*/ {
+    .rodovia h2{
         padding-bottom:15%;
         text-align:center;
         font-size:130%;
     }
  }
 
- @media (min-width:1325px){
-    .conciliacao h2{
-        padding-bottom:7%;
+ @media (min-width:1874px) /*and (max-width:1090px)*/ {
+    .correspondencia h2{
+        padding-bottom:16%;
         text-align:center;
         font-size:130%;
     }
  }
-
- @media (min-width:278px){
-    .conciliacao h2{
-        text-align:center;
-        margin-left:10%;
-    }
- }
-
 
 
     
