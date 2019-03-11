@@ -1,12 +1,60 @@
+body{
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+}
+
 h1{
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:1.6em;  
     padding-top:5%;
-    padding-bottom:10%;  
+    padding-bottom:5%;  
 }
 
 main p{
-    padding-left: 10%;
-    padding-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 11.1%;
+    padding-bottom:5%;
+   
 }
+
+Images{
+
+}
+
+img{
+    width: 100%;
+    border: solid lightgray 3px;
+}
+
+.Image1, .Image2, .Image3, .Image4, .Image5, .Image6, .Image7{
+    width: 10%;
+    float: left;
+    margin-right:2%;
+}
+    .Image1{
+        margin-left: 5%;
+
+    }
+
+    .Image2{
+    }
+    .Image4{
+
+    }
+    .Image5{
+    }
+    .Image6{
+       
+    }
+    .Image7{
+        clear: right;
+    }
+
+    
+
+

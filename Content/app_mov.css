@@ -1,5 +1,8 @@
 .Srg_App{
-    width: 21.9%;
+    width: 90%;
+    /* margin-bottom: 10%; */
+    padding-bottom: 5%;
+
 }
 
 .image{
@@ -10,15 +13,100 @@
 }
 
 .Srg_App h2{
-    padding-top:20%;
-    padding-left:40%;
+    padding-top:10%;
+    padding-left:15%;
     text-align:center;
-    font-size:130%;
+    font-size:100%;
 }
 
 h1{
     text-align:center;
-    padding-top:5%;
+    padding-top:10%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:1.6em;    
+    font-size:1.4em;    
+}
+
+body{
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom:0%; 
+}
+
+
+@media (min-width:660px){
+    .Srg_App h2{
+        padding-top:10%;
+        padding-left:50%;
+        text-align:center;
+        font-size:110%;
+    }
+
+    .Srg_App{
+        width: 70%;
+        /* margin-bottom: 10%; */
+        padding-bottom: 5%;
+    
+    }
+    .image{
+        width: 70%;
+        margin-left: 40%;
+        margin-top: 5%;
+        padding-bottom:5%;
+    }
+
+}
+
+
+@media (min-width:1060px){
+    .Srg_App h2{
+        padding-top:10%;
+        padding-left:0%;
+        text-align:center;
+        font-size:110%;
+    }
+
+    .Srg_App{
+        width: 50%;
+        /* margin-bottom: 10%; */
+        padding-bottom: 5%;
+    
+    }
+    .image{
+        width: 70%;
+        margin-left: 14%;
+        margin-top: 5%;
+        padding-bottom:5%;
+    }
+
+}
+
+@media (min-width:1400px){
+    .Srg_App h2{
+        padding-top:10%;
+        padding-left:0%;
+        text-align:center;
+        font-size:110%;
+    }
+
+    .Srg_App{
+        width: 30%;
+        /* margin-bottom: 10%; */
+        padding-bottom: 5%;
+    
+    }
+    .image{
+        width: 70%;
+        margin-left: 14%;
+        margin-top: 5%;
+        padding-bottom:5%;
+    }
+
+    h1{
+        padding-top:8%;
+        font-size:1.5em;    
+    }
+
 }
