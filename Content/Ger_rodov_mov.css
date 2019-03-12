@@ -2,28 +2,23 @@ body{
     width: 100%;
 }
 
-footer{
-    position: absolute;
-    bottom: 0%;
-}
+
 
 h1{
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:1.6em;  
-    padding-top:5%;
-    padding-bottom:5%;  
+    font-size:1.3em;  
+    padding-top:10%;
+    padding-bottom:1%;  
 }
 
-main p{
+.app-descricao{
+    margin-top: 1%;
     margin-left: 5%;
-    margin-right: 11.1%;
-    padding-bottom:5%;
-   
-}
-
-Images{
-
+    margin-bottom: 3%;
+    word-spacing: 2px;
+    line-height: 25px;
+    width: 83%;
 }
 
 img{
@@ -32,28 +27,144 @@ img{
 }
 
 .Image1, .Image2, .Image3, .Image4, .Image5, .Image6, .Image7{
-    width: 10%;
-    float: left;
-    margin-right:2%;
+    width: 70%;
+    /* margin-right:2%; */
+    margin-left: 12%;
 }
-    .Image1{
+
+@media(min-width:700px){
+    .Image1, .Image3, .Image5{
+        width: 30%;
+        /* margin-right:2%; */
         margin-left: 5%;
-
+        float: left;
+        
+    }
+    .Image2, .Image4, .Image6{
+        width: 30%;
+        /* margin-right:2%; */
+        margin-left: 22%;
+        float: left;
+        
     }
 
-    .Image2{
+    .Image7{
+        width: 30%;
+        /* margin-right:2%; */
+        margin-left: 5%;
     }
-    .Image4{
+}
 
+/* 
+.Image2{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+}
+
+.Image3{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+}
+
+.Image4{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+}
+
+.Image5{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+}
+
+.Image6{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+}
+
+.Image7{
+    width: 40%;
+    float: left;
+    clear: right;
+    margin-right:2%;
+    margin-left: 5%;
+} */
+
+
+@media(min-width:1200px){
+
+    footer{
+        position: absolute;
+        bottom: 0%;
     }
-    .Image5{
+    
+    h1{
+        text-align:center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1.6em;  
+        padding-top:5%;
+        padding-bottom:1%;  
     }
-    .Image6{
-       
+    
+    
+    img{
+        width: 100%;
+        border: solid lightgray 3px;
     }
+    
+    .Image1{
+        width: 10%;
+        float: left;
+        margin-right:2%;
+    }
+
+   .Image2, .Image3, .Image4, .Image5, .Image6, .Image7{
+        width: 10%;
+        float: left;
+        margin-right:1%;
+        margin-left: 2%;
+    }
+
     .Image7{
         clear: right;
+        margin-bottom: 5%;
     }
+    
+    .btn:focus, .btn:active, button:focus, button:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
+    #image-gallery .modal-footer{
+        display: block;
+    }
+    
+    .app-descricao{
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        word-spacing: 3px;
+        line-height: 30px;
+        width: 83%;
+    }
+    
+}
+
+
 
     
 
