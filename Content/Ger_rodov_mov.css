@@ -3,6 +3,10 @@ body{
 }
 
 
+strong{
+    color: black;
+    font-size: large;
+}
 
 h1{
     text-align:center;
